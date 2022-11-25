@@ -9,5 +9,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Run commands
-      - run: echo "hello world"
-      - run: echo "Action Associated succesfully"
+        run: |
+          echo "hello world"
+          echo "Action Associated succesfully"
